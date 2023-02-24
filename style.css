@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background: #F1F5F8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    border: 0;
+    border-top: 5px solid #48A6E9;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilePic img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    box-shadow: 1vw 0 0px #48A6E9;
+}
+
+.reviewBox {
+    background: #fff;
+    /* padding: 10px 100px; */
+    border-radius: 10px;
+    width: 80%;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+
+#title {
+    font-size: 15px;
+    color: #48A6E9;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#description {
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #617E98;
+}
+
+#prevBtn, #nextBtn {
+    display: inline-block;
+}
+
+.btns {
+    display: inline-block;
+}
+
+#prevBtn, #nextBtn {
+    background-color: transparent;    
+    border: none;
+    font-size: 30px;
+    color: #48A6E9;
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+#surpriseBtn { 
+    background: #ECF7FF;
+    color: #48A6E9;
+    border: none;
+    padding: 10px;
+    border: 2px solid #48A6E9;
+    border-radius: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#surpriseBtn:hover {
+    background: #48A6E9;
+    color: #fff;
+}
+
+#prevBtn:hover, #nextBtn:hover {
+    color: #000000;
+}
